@@ -11,9 +11,16 @@ istediğiniz herhangi bir ifadenin var olup olmadığını veya kaç defa bu ifa
 ![Screenshot_2023-12-02_10_50_40](https://github.com/bdaggg/AVCI/assets/110742864/f3a2ac3d-fc0f-45a3-b5bd-e46974b98da8)
 
 Eğer bilgisayarınızda herhangi bir dosyada herhangi bir ifadenin geçtiği satrları görmek isterseniz yukarıda görülüdüğü gibi 
-go run ./main.go --aranan "aranan_ifade" --dosya "dosyanın_konumu_buraya_gelecek" bu şekilde çalıştırabilirsiniz
+go run ./main.go --aranan "aranan_ifade" --dosya "dosyanın_konumu_buraya_gelecek"
+bu şekilde çalıştırabilirsiniz
 
 ![Screenshot_2023-12-02_10_50_16](https://github.com/bdaggg/AVCI/assets/110742864/44dbcd71-af80-4ff5-b0f0-c74cadc282b1)
 
-satırları değilde sadece ifadenin kaç defa dosya içerisinde geçtiğini görmek için ise  aynı şekilde aranan kelime ve dosya konumu verilip ek olarak
+satırları değilde sadece ifadenin kaç defa dosya içerisinde geçtiğini görmek için ise  aynı şekilde aranan kelime ve dosya konumu verilir ek olarak
 --sayac eklenebilir. go run ./main.go --aranan "aranan_ifade" --dosya "dosyanın_konumu_buraya_gelecek" --sayac bu şekilde. 
+
+
+AVCI'nın sonraki sürümlerinde eklenecekler:
+-- ismi verilen bir dosyanın bilgisayar içerisindeki konumunu bulma işlemini yapabilecek (linux sistemlerindeki find komutu gibi düşünülebilir)
+-- dosya okuma işlemini yapabilecek (linux sistemlerdeki cat komutu gibi düşünülebilir)
+-- dosya şifreleme işlemini yapabilecek
