@@ -20,7 +20,11 @@ satırları değilde sadece ifadenin kaç defa dosya içerisinde geçtiğini gö
 --sayac eklenebilir. go run ./main.go --aranan "aranan_ifade" --dosya "dosyanın_konumu_buraya_gelecek" --sayac bu şekilde. 
 
 
-AVCI'nın sonraki sürümlerinde eklenecekler:
--- ismi verilen bir dosyanın bilgisayar içerisindeki konumunu bulma işlemini yapabilecek (linux sistemlerindeki find komutu gibi düşünülebilir)
--- dosya okuma işlemini yapabilecek (linux sistemlerdeki cat komutu gibi düşünülebilir)
--- dosya şifreleme işlemini yapabilecek
+<h1>AVCI'nın sonraki sürümlerinde eklenecekler:</h1>
+
+
+
+<h3>
+-- ismi verilen bir dosyanın bilgisayar içerisindeki konumunu bulma işlemini yapabilecek (linux sistemlerindeki find komutu gibi düşünülebilir)<br>
+-- dosya okuma işlemini yapabilecek (linux sistemlerdeki cat komutu gibi düşünülebilir)<br>
+-- dosya şifreleme işlemini yapabilecek</h3>
